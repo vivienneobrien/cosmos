@@ -7,7 +7,7 @@ import GUI from "lil-gui";
  */
 
 // Debug
-const gui = new GUI(); // { width: 200 }
+const gui = new GUI({ width: 360 });
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
